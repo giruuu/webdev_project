@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.main {
+    width: 100%;
+    background-color: #000000;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar {
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .portfolio-heading {
+    font-size: 24px;
+    color: rgb(246, 255, 0);
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    padding: 10px 16px;
+}
+
+ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: .4s ease;
+}
+
+ul li a:hover {
+    color: rgb(59,174,209);
+}
+
+.info {
+    margin-left: 7%;
+    margin-top: 6%;
+    color: white;
+}
+
+
+.info h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: white;
+}
+
+.info span {
+    color: rgb(246, 255, 0);
+}
+
+.info a {
+    text-decoration: none;
+    color: #dec9c9;
+    background: rgb(36, 32, 30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover {
+    background: rgb(255, 255, 255);
+}
+
+.image {
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img {
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .dp {
+    left: 55%;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000;
+}
+
+.icons ion-icon{
+    margin-left: 7%;
+    color: #ffffff;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+    
+}
+
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+}
+
+.aboutme{
+    margin-left: 7%;
+    margin-top: 6%;
+    color: white;
+}
+
+.aboutme h1{
+    color: rgb(0, 242, 255);
+    font-size: 65px;
+}
+
+
+.education h1{
+    color: rgb(0, 242, 255);
+    text-align: center;
+}
+.education {
+    background-color: #000000;
+    color: #ffffff; 
+    font-family: Arial, sans-serif; 
+}
+
+.education-item {
+    border: 1px solid #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #000000; 
+}
+
+.education-item h2 {
+    color: blue;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.education-item h3 {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+.education-item p {
+    color: #fafafa;
+    margin: 5px 0;
+}
+
+.education-item img {
+    width: 800px; 
+    height: 500px;
+    object-fit: cover; 
+    margin-top: 10px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    color: #ccc;
+}
+
+.progress {
+    margin-top: 10px;
+}
+
+.skill p {
+    color: #aaa;
+    margin: 5px 0;
+}
+
+.info h1{
+    color: rgb(0, 242, 255);
+}
+
+.intro h1{
+    font-size: 65px;
+    color: white;
+}
+
+.navbar li.active a {
+    color: rgb(246, 255, 0);
+    font-weight: bold;
+}
+
+.project {
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+    height: 100vh;
+}
+
+.project1 {
+    border: 1px solid #000000;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #000000;
+}
+
+.project1 h2 {
+    color: blue;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.project1 h3 {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+.project1 img {
+    width: 800px; 
+    height: 500px; 
+    object-fit: cover; 
+    margin-top: 10px;
+}
+
+.gallery {
+    margin-top: 20px;
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+    height: 100vh;
+}
+
+.gallery h1 {
+    color: #ff0000;
+    font-size: 100px;
+}
