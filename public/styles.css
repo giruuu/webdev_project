@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: sans-serif;
 }
@@ -207,39 +213,6 @@ ul li a:hover {
     font-weight: bold;
 }
 
-.project {
-    text-align: center; 
-    display: flex; 
-    align-items: center; 
-    flex-direction: column; 
-    height: 100vh;
-}
-
-.project1 {
-    border: 1px solid #000000;
-    padding: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-    background-color: #000000;
-}
-
-.project1 h2 {
-    color: blue;
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.project1 h3 {
-    color: #ffffff;
-    margin: 5px 0;
-}
-
-.project1 img {
-    width: 800px; 
-    height: 500px; 
-    object-fit: cover; 
-    margin-top: 10px;
-}
 
 .gallery {
     margin-top: 20px;
@@ -253,4 +226,101 @@ ul li a:hover {
 .gallery h1 {
     color: #ff0000;
     font-size: 100px;
+}
+
+.projects {
+    width: 86%; /* Same width as the navbar for consistency */
+    margin: 6% auto; /* Center the content with top margin */
+    color: white; /* Set text color to white */
+    text-align: center; /* Center-align text */
+}
+
+.projects h1 {
+    font-size: 48px; /* Adjust font size for the main heading */
+    color: rgb(0, 242, 255); /* Main heading color */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+.project-item {
+    background-color: #222; /* Dark background for project items */
+    border: 1px solid #444; /* Slightly lighter border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside project items */
+    margin-bottom: 20px; /* Space between project items */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.project-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.project-item h2 {
+    font-size: 24px; /* Adjust font size for project titles */
+    color: rgb(246, 255, 0); /* Set project title color */
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.project-item p {
+    font-size: 16px; /* Font size for project descriptions */
+    color: #fafafa; /* Set description color */
+}
+
+
+/* CSS FOR THE ACTIVITY*/
+
+.act_content {
+    flex-grow: 1; /* Makes the content stretch to fill the space */
+    padding: 20px;
+    color: white;
+    background-color: #000; /* Ensure no gaps between content and body */
+    width: 100%; /* Stretch content to full width */
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.act_content h1 {
+    color: rgb(0, 242, 255);
+    font-size: 36px; /* Adjust font size as needed */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.activity-description {
+    margin-bottom: 30px; /* Space below the description */
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+.activity-description p {
+    line-height: 1.6; /* Improve readability */
+    color: #fafafa; /* Change to your preferred text color */
+}
+
+.screenshots {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between screenshot items */
+}
+
+.screenshots h2 {
+    color: rgb(0, 242, 255);
+    font-size: 28px; /* Adjust font size as needed */
+    margin-bottom: 15px; /* Space below the screenshots heading */
+}
+
+.screenshot-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center images and descriptions */
+}
+
+.screenshot-item img {
+    width: 1100px; 
+    height: 600px;
+    object-fit: cover; 
+    margin-top: 10px;
+}
+
+.screenshot-item p {
+    margin-top: 5px; /* Space between image and description */
+    color: #fafafa; /* Change to your preferred text color */
+    font-size: 16px; /* Adjust font size as needed */
+    text-align: center; /* Center the text below images */
 }
