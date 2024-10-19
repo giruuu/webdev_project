@@ -324,3 +324,262 @@ ul li a:hover {
     font-size: 16px; /* Adjust font size as needed */
     text-align: center; /* Center the text below images */
 }
+
+
+.age-verification-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.age-verification-form {
+    background-color: #222; /* Dark gray background for form */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.age-verification-form h1 {
+    font-size: 36px;
+    color: #00f2ff; /* Light blue for headings */
+    margin-bottom: 20px;
+}
+
+.age-verification-form p {
+    font-size: 18px;
+    color: #fafafa; /* Slightly lighter white for paragraph */
+    margin-bottom: 30px;
+}
+
+/* Form Field Styling */
+.age-form-group {
+    margin-bottom: 20px;
+}
+
+.age-form-group label {
+    font-size: 16px;
+    color: #fff; /* White label */
+    display: block;
+    margin-bottom: 5px;
+}
+
+.age-form-group input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #333;
+    color: #fff; /* White text in input field */
+    font-size: 16px;
+    outline: none;
+}
+
+.age-form-group input[type="number"]::placeholder {
+    color: #aaa; /* Light gray placeholder */
+}
+
+/* Button Styling */
+.age-submit-btn {
+    background-color: #00f2ff; /* Bright blue button */
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.age-submit-btn:hover {
+    background-color: #00a2b5; /* Darker blue on hover */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .age-verification-form {
+        padding: 20px;
+    }
+
+    .age-verification-form h1 {
+        font-size: 28px;
+    }
+
+    .age-submit-btn {
+        font-size: 14px;
+    }
+}
+
+/* General styling for the Access Denied page */
+.access-denied-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+.access-denied-container h1 {
+    font-size: 48px;
+    color: #ff4f4f; /* Bright red for the heading */
+    margin-bottom: 20px;
+}
+
+.access-denied-container p {
+    font-size: 18px;
+    color: #fafafa; /* Slightly lighter white for the paragraph */
+    margin-bottom: 30px;
+}
+
+/* Button styling */
+.access-denied-btn {
+    background-color: #00f2ff; /* Bright blue button */
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* Remove underline from the link */
+}
+
+.access-denied-btn:hover {
+    background-color: #00a2b5; /* Darker blue on hover */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .access-denied-container h1 {
+        font-size: 36px;
+    }
+
+    .access-denied-btn {
+        font-size: 14px;
+    }
+}
+
+
+/* General styling for the Restricted 21+ Content page */
+.restricted-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+.restricted-container h1 {
+    font-size: 48px; /* Large heading */
+    color: #ffcc00; /* Gold color for the heading */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.restricted-container p {
+    font-size: 20px; /* Slightly larger font for the paragraph */
+    color: #fafafa; /* Light white for the paragraph text */
+    margin-bottom: 30px; /* Space below paragraph */
+}
+
+/* Button styling */
+.restricted-btn {
+    background-color: #007bff; /* Primary button color */
+    color: #fff; /* White text on button */
+    padding: 12px 20px; /* Button padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Button font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-decoration: none; /* Remove underline from the link */
+    margin: 10px; /* Space between buttons */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.restricted-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .restricted-container h1 {
+        font-size: 36px; /* Smaller heading on mobile */
+    }
+
+    .restricted-container p {
+        font-size: 18px; /* Smaller paragraph text on mobile */
+    }
+
+    .restricted-btn {
+        font-size: 14px; /* Smaller button font on mobile */
+    }
+}
+
+/* General styling for the Restricted Area page */
+.restricted-area-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+}
+
+.restricted-area-container h1 {
+    font-size: 48px; /* Large heading */
+    color: #ffcc00; /* Gold color for the heading */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+.restricted-area-container p {
+    font-size: 20px; /* Slightly larger font for the paragraph */
+    color: #fafafa; /* Light white for the paragraph text */
+    margin-bottom: 30px; /* Space below paragraph */
+}
+
+/* Button styling */
+.restricted-btn {
+    background-color: #007bff; /* Primary button color */
+    color: #fff; /* White text on button */
+    padding: 12px 20px; /* Button padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Button font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-decoration: none; /* Remove underline from the link */
+    margin: 10px; /* Space between buttons */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.restricted-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .restricted-area-container h1 {
+        font-size: 36px; /* Smaller heading on mobile */
+    }
+
+    .restricted-area-container p {
+        font-size: 18px; /* Smaller paragraph text on mobile */
+    }
+
+    .restricted-btn {
+        font-size: 14px; /* Smaller button font on mobile */
+    }
+}

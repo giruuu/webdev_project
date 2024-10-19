@@ -1,10 +1,34 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AgeController;
 
-// Route for the root URL (default home page)
+// Route for displaying the age verification form
+Route::get('/check-age', function () {
+    return view('Components.check-age');
+})->name('check-age');
+
+// Handle the form submission for age verification
+Route::post('/check-age', [AgeController::class, 'storeAge'])->name('store-age');
+
+// Age restricted route for 18+
+Route::get('/restricted', function () {
+    return view('Components.restricted');
+})->middleware('check.age:18')->name('restricted');
+
+// Age restricted route for 21+
+Route::get('/restricted-21', function () {
+    return view('Components.restricted-21');
+})->middleware('check.age:21')->name('restricted-21');
+
+// Route for access denied
+Route::get('/access-denied', function () {
+    return view('Components.access-denied');
+})->name('access-denied');
+
+// Home page route
 Route::get('/', function () {
-    return view('components.home');
+    return view('components.home'); 
 })->name('home');
 
 // Route for the about page

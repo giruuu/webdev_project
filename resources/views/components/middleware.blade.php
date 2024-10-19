@@ -11,7 +11,7 @@
     </div>
 
     <div class="screenshots">
-        <h2>Screenshots</h2>
+        <h2>Documentation</h2>
 
         <div class="screenshot-item">
             <img src="mid-pic1.png" alt="Screenshot 1">
@@ -24,27 +24,31 @@
             <img src="mid-pic4.png" alt="Screenshot 4">
             <img src="mid-pic5.png" alt="Screenshot 5">
             <img src="mid-pic6.png" alt="Screenshot 6">
-            <p>This is when u enter age 18 <br>This will take you to the RESTRICTED AREA PAGE WHICH WILL LET YOU ENTER THE WEBSITE.</p>
+            <p>This is when u enter age 18 <br>This will take you to the RESTRICTED AREA PAGE WHICH WILL LET YOU ENTER THE WEBSITE.<br>
+            I made the Views for Restricted Area</p>
         </div>
 
         <div class="screenshot-item">
             <img src="mid-pic7.png" alt="Screenshot 7">
             <img src="mid-pic8.png" alt="Screenshot 8">
             <img src="mid-pic9.png" alt="Screenshot 9">
-            <p>This is when u enter age for 21 or above<br>This will take you to the RESTRICTED AREA 21+ PAGE WHICH WILL LET YOU ENTER THE WEBSITE.</p>
+            <p>This is when u enter age for 21 or above<br>This will take you to the RESTRICTED AREA 21+ PAGE WHICH WILL LET YOU ENTER THE WEBSITE.<br>
+            I made the Views for Restricted Area</p>
         </div>
 
         <div class="screenshot-item">
             <img src="mid-pic10.png" alt="Screenshot 10">
             <img src="mid-pic11.png" alt="Screenshot 11">
-            <p>This is the ROUTES for this activity</p>
+            <p>This is the ROUTES for this activity<br>This is my contribution to this activity</p>
         </div>
 
         <div class="screenshot-item">
             <img src="mid-pic12.png" alt="Screenshot 12">
             <p>This is the CONTROLLERS for this activity<br>
             This AgeController validates the user's age input, stores it in the session, and redirects the user to different routes based on the age provided.<br>
-            This is typically used to control access to certain features or content based on age restrictions.</p>
+            This is typically used to control access to certain features or content based on age restrictions.<br>
+            This is my contribution to this activity</p>
+
         </div>
 
         <div class="screenshot-item">
@@ -53,13 +57,14 @@
             <p>This is the MIDDLEWARE for this activity<br>
             This middleware checks the user's age from the session before allowing access to a route. <br>
             If the user does not meet the required age, they are redirected to an "Access Denied" page. 
-            If the age check passes, the request continues as normal.</p>
+            If the age check passes, the request continues as normal.<br>
+            This is my contribution on the activity</p>
         </div>
 
         <div class="screenshot-item">
             <img src="mid-pic15.png" alt="Screenshot 15">
             <p>This is the bootstrap/app.php for this activity<br>This configuration file sets up a Laravel application by defining routes for web and console, adding a health check endpoint (/up), and organizing middleware.<br>
-             It registers global middleware like LogRequests for all requests and assigns aliases for specific middleware, such as CheckAge, for certain routes. </p>
+             It registers global middleware like LogRequests for all requests and assigns aliases for specific middleware, such as CheckAge, for certain routes.<br>This is also my contribution to this activity</p>
         </div>
 
 
