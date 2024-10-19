@@ -11,7 +11,7 @@
     </div>
 
     <div class="screenshots">
-        <h2>Documentation</h2>
+        <h2>DOCUMENTATION</h2>
 
         <div class="screenshot-item">
             <img src="mid-pic1.png" alt="Screenshot 1">
